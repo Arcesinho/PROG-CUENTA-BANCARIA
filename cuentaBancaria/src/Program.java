@@ -5,7 +5,7 @@ public class Program {
     public static void main(String[] args) {
 
         BankAccount cuenta = new BankAccount(0);
-
+        System.out.println("Hola, que quieres hacer?\n1:Añadir dinero \n2: Retirar dinero \n3: Salir");
         Scanner sc1 = new Scanner(System.in);
         int op = -1;
 
